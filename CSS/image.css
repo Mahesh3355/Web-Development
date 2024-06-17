@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+/* Utility Classes*/
+.nowrap {
+    white-space: nowrap;
+}
+
+.off {
+    position: absolute;
+    left: -100px;
+}
+
+/*End Utility Classes*/
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    background-color: aliceblue;
+    background-image: url(../img/bubbles.png),
+    linear-gradient(to left,red,purple,blue,white,yellow);
+    background-repeat: repeat-y,no-repeat;
+    background-position: right center;
+    background-size: 20% auto;
+    /* Background shorthand */
+    /* background: repeat-y right center url(    "../img/bubbles.png"),no-repeat linear-gradient(to left,steelblue,#fff);
+    background-size: 20% auto; */
+}
+.clip
+{
+    font-weight: 800;
+    text-align: center;
+    font-size: 1000%;
+    background-image: url('../img/scenic-2200x1331.png');
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+}
+.container
+{
+    background-color: papayawhip;
+    background-image: url('https://images.nationalgeographic.org/image/upload/v1638882947/EducationHub/photos/tourists-at-victoria-falls.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    gap: 30px;
+}
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgba(47, 40, 40, 0.486);
+}
+
+h1 {
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    /* max-height: 1000px; */
+    border: 5px double red;
+    border-radius: 50%;
+}
+
+.example {
+    width: 35%;
+}
+
+.example img {
+    /*margin-top: 1rem;
+    padding-left: 20px; */
+    border: 5px double red;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}

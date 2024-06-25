@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/project.css">
+    <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="Top" class="header__title">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header_list">
+                    <a href="Home.html"  class="header__a">Home</a>
+                </li>
+                <li class="header_list">
+                    <a href="Home.html#menu"  class="header__a">Menu</a>
+                </li>
+                <li class="header_list">
+                    <a href="store.html"  class="header__a">Hours</a>
+                </li>
+                <li class="header_list">
+                    <a href="about.html"  class="header__a">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <figure>
+            <img src="https://newtheory.com/wp-content/uploads/2016/08/Spicy-Salmon-Tacos-Landscape.jpg"
+                alt="Tacos Plate" width="1000" height="500">
+            <figcaption class="offscreen">A Plate Of Tacos</figcaption>
+        </figure>
+    </section>
+    <main>
+        <section class="main_section">
+            <h2>OUR LOCATION</h2>
+            <address>
+                F&B 05, S No. 64, APIIC Software Layout Inorbit Mall Road, Mindspace Madhapur Rd, Hyderabad, Telangana
+                500081
+                <p>Phone:555-555-5555</p>
+            </address>
+            <a href="#Top">Back To TOP</a>
+        </section>
+        <article class="main__article contact">
+            <h2 class="contact__h2">OUR CONTACT FORM</h2>
+            <form action="https://httpbin.org/get" method="get" class="contact__form">
+                <fieldset class="contact__fieldset">
+                    <legend class="offscreen">Send Us A Feedback Message</legend>
+                    <p class="contact__p">
+                        <label for="FullName" class="contact__label">FULLNAME:</label>
+                        <input class="contact__input" type="text" name="FULLNAME" id="FULLNAME" placeholder="Mahesh Birajdar" autocomplete="on"
+                            required>
+                    </p>
+                    <p class="contact__p">
+                        <label for="email" class="contact__label">EMAIL:</label>
+                        <input class="contact__input" type="email" name="email" id="email" placeholder="random5566@gmail.com" autocomplete="on"
+                            required>
+                    </p>
+                    <p class="contact__p">
+                        <label for="message" class="contact__label">Your Message</label>
+                        <br>
+                        <textarea class="contact__textarea" name="message" id="email" rows="10" cols="30"
+                            placeholder="Type something??"></textarea>
+                    </p>
+                    <br>
+                </fieldset>
+                <button type="reset" class="contact__button">Reset</button>
+                <button type="submit" class="contact__button">Submit</button>
+            </form>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <a href="#Top">Back To Top</a>
+        </p>
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">The Little Taco Shop</span>
+        </p>
+        <p><strong class="nowrap">Thanks for visiting!!!</strong></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: papayawhip;
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+}
+.dark
+{
+    background-color: black;
+    color: rebeccapurple;
+}
+.light
+{
+    background-color:whitesmoke;
+    color: green;
+}
